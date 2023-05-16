@@ -1,0 +1,219 @@
+@font-face {
+  font-family: cairo;
+  src: url(/assets/fonts/Cairo-Regular.ttf);
+}
+.cairo {
+  font-family: cairo;
+  font-weight: 400;
+  color: black;
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.bgds {
+  background-color: #510B76;
+}
+
+.theme-color .btn-theme {
+  height: 30px;
+  width: 30px;
+  border: 0;
+}
+.theme-color .purple {
+  background-color: #510B76;
+}
+.theme-color .green {
+  background-color: #0B760F;
+}
+
+.access-account {
+  font-size: 16px;
+}
+.access-account .sign-in {
+  width: 150px;
+  border: 1px solid;
+}
+.access-account .sign-up {
+  width: 150px;
+  color: white;
+  border: 0;
+}
+
+.container-section-1 .card-section-1 {
+  color: white;
+  border: 0;
+  border-radius: 0;
+}
+.container-section-1 .whole-text .card-body {
+  padding: 0 100px;
+}
+.container-section-1 .image-1 {
+  filter: drop-shadow(0px 3px 3px gray);
+}
+.container-section-1 .wrapper {
+  font-size: 16px;
+}
+.container-section-1 .wrapper a {
+  text-decoration: none;
+  color: white;
+}
+.container-section-1 .card-title {
+  font-size: 56px;
+}
+.container-section-1 .card-text {
+  font-size: 20px;
+  font-weight: 400;
+  width: 400px;
+}
+
+.container-section-2 {
+  margin: 100px 0;
+}
+.container-section-2 .image-2 {
+  margin: 65px auto;
+  margin-left: 60px;
+}
+.container-section-2 .right-col {
+  background-image: url(/assets/images/Rectangle\ 64.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+.container-section-2 .left-col .card-title {
+  font-size: 40px;
+}
+.container-section-2 .left-col .text-wrap {
+  width: 70%;
+}
+
+.middle-cards {
+  margin-bottom: 200px;
+  justify-content: center;
+  padding: 0 350px;
+}
+.middle-cards .card {
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  border: 0;
+  margin: 10px;
+}
+.middle-cards .card-header {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+.middle-cards .card-body {
+  height: 150px;
+  padding: 0 40px;
+}
+.middle-cards .card-text {
+  font-weight: 700;
+  size: 16px;
+  height: 100px;
+  padding-top: 50px;
+}
+
+#main-content {
+  margin: 100px;
+}
+#main-content .card-icon {
+  background-color: #FAF9F9;
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  color: #F58026;
+}
+#main-content .card-wrap {
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px lightgray;
+  height: 100%;
+}
+#main-content .card-title {
+  font-size: 22px;
+}
+#main-content .readMore {
+  width: 140px;
+  font-size: 15px;
+}
+
+.popup-box {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-box .popup-content {
+  border-radius: 10px;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  position: relative;
+  margin-top: 150px;
+  box-shadow: 0px 0px 10px 3px rgb(62, 62, 62);
+}
+.popup-box .popup-header {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  box-shadow: 0 5px 4px lightgray;
+  border-radius: 10px 10px 0 0;
+}
+.popup-box .popup-header .popup-close-btn {
+  background-color: rgb(208, 207, 207);
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-box .popup-header .popup-close-btn .icon {
+  color: white;
+  border: 0;
+  background-color: transparent;
+}
+.popup-box .popup-header .popup-close-btn:hover {
+  background-color: red;
+}
+.popup-box .popup-body {
+  padding: 30px 20px;
+}
+
+:root {
+  --glow-color: orange;
+}
+
+.glow-btn {
+  position: relative;
+  color: var(--glow-color);
+  padding: 0.35em 1em;
+  border: 0.15em solid var(--glow-color);
+  border-radius: 0.45em;
+  perspective: 2em;
+  box-shadow: inset 0px 0px 0px 0px var(--glow-color), 0px 0px 1em 5px var(--glow-color);
+}
+
+.container-section-3 {
+  margin: 50px;
+}
+
+@media only screen and (orientation: portrait) {
+  .middle-cards {
+    padding: 0 20px;
+  }
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
